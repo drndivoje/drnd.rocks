@@ -16,8 +16,6 @@ description = "The personal blog of Ivan Doskovic"
 default_language = "en"
 generate_rss = true
 
-theme = "even"
-
 taxonomies = [
     # You can enable/disable RSS
     {name = "categories", rss = true},
