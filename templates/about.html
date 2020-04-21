@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="tile is-ancestor">
+    <div class="tile is-vertical is-8">
+        <div class="tile">
+            <div class="tile is-parent is-vertical">
+                <article class="tile is-child">
+                    <div class="content">
+                        <p class="title">Who am I?</p>
+                        <div class="content">{{ page.content | safe }}</div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div class="tile is-parent">
+        <article class="tile is-child">
+            <div class="content">
+                <img src="{{ get_url(path="/img/me.jpg")}}" height="200" width="200">
+            </div>
+        </article>
+    </div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="title">
+  {{ page.title }}
+</h2>
+{% if page.date %}
+<span class="subtitle is-6"> Publish date: </span><span class="subtitle is-5">{{ page.date }}</span>
+{% endif %}
+<hr>
+<div class="content">{{ page.content | safe }}</div>
+{% endblock content %}

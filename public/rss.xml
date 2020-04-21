@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Random thoughs of Ivan Doskovic</title>
+        <link>http://127.0.0.1:1111</link>
+        <description>The personal blog of Ivan Doskovic</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="http://127.0.0.1:1111/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>The First Post</title>
+                <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+                <link>http://127.0.0.1:1111/blog/first/</link>
+                <guid>http://127.0.0.1:1111/blog/first/</guid>
+                <description>&lt;p&gt;Here is my first post on this blog and i will keep it short and simple as possible.
+Still I do not have interesting topic to write but still I have enough bullets for the first post. 
+I had the idea of starting personal web sites almost a decade ago.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+    {{ section.title }}
+</h1>
+<ul>
+
+
+    {% for section in section.subsections | reverse %}
+
+    {% set sub = get_section(path=section) %}
+
+    {% for page in sub.pages %}
+    <li>
+
+        <section class="box">
+
+                    <a href="{{ page.permalink }}">
+                        <h4 class="title is-4">
+                            {{ page.title }}
+                        </h4>
+                    </a>
+                    <p class="is-medium">
+                        {{ page.summary | safe }}
+                    <div class="read-more">
+                        <a href="{{ page.permalink }}">Read more...</a>
+                    </div>
+                    </p>
+
+        </section>
+
+
+    </li>
+    {% endfor %}
+
+    {% endfor %}
+
+
+</ul>
+{% endblock content %}
