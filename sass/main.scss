@@ -1,0 +1,19 @@
+$font-stack: 'Montserrat', sans-serif;
+
+.navbar-item a {
+  font-family: $font-stack;
+  font-weight: 700;
+  font-size: large
+}
+.content {
+  font-family: $font-stack;
+}
+.title {
+  font-family: $font-stack;
+  font-weight: 500;
+}
+.box p {
+  font-family: $font-stack;
+  font-weight: 400;
+}
+

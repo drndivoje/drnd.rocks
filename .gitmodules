@@ -1,0 +1,3 @@
+[submodule "static/fonts/Montserrat"]
+	path = static/fonts/Montserrat
+	url = git@github.com:JulietaUla/Montserrat.git
